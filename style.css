@@ -4,6 +4,17 @@ body {
 	
 }
 
+a {
+	text-decoration:none;
+	color:#000;
+	font-weight:700;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#000;
+	border-bottom:thin #000 solid;
+}
 
 #maincontainer {
 	position:absolute;
@@ -46,26 +57,25 @@ body {
 	overflow:hidden;
 }
 
-.columnlinks ul {
-	text-decoration:none;
-}
-
-
-.columnlinks li {
-	list-style:none;
-	padding:5 0px;
+#sidebar ul {
+	padding:0px;
 	margin:0px;
-	height:40;
 }
 
 
-.columnlinks li a{
+#sidebar li {
+	padding:5px;
+
+}
+
+#sidebar li a {
 	text-decoration:none;
 	color:#000;
 	border-bottom:thin #000 dashed;
+	font-weight: 400;
 }
 
-.columnlinks li a:hover {
+#sidebar li a:hover {
 	text-decoration:none;
 	color:#000;
 	border-bottom:thin #000 solid;
@@ -73,6 +83,12 @@ body {
 
 #sidebar {
 	padding-left:5px;
+	padding-right:10px;
+}
+
+#sidebar h3{
+	text-align: center;
+	text-decoration: underline;
 }
 
 #header {
@@ -103,8 +119,8 @@ body {
 	margin-bottom:0px;
 	padding:5px 0px;
 	text-align:center;
-	border-bottom:thick #000 solid;
-	border-top:thick #000 solid;
+	border-bottom:thin #000 solid;
+	border-top:thin #000 solid;
 }
 #main-menu .nav-bar li { 
 	display:inline; 
@@ -121,6 +137,7 @@ body {
   color: #333;
   text-shadow: 1px 1px 1px #ccc;
   font-size:20px;
+  font-weight: 400;
 }
 
 .nav-bar .nav-button a { 
@@ -132,7 +149,7 @@ body {
 .nav-bar .nav-button a:hover { 
 	background:url(smlvolleyball.png) no-repeat 0px 10px; transparent;
 	background-size:30px 32px;
-	
+	border-bottom:none;
 }
 
 
