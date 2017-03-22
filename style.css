@@ -86,10 +86,37 @@ a:hover {
 	padding-right:10px;
 }
 
-#sidebar h3{
+#sidebar h3 {
 	text-align: center;
 	text-decoration: underline;
 }
+
+#signup {
+	padding-top:40px;
+	padding-bottom:20px;
+	margin: 0px auto;
+	width:150px;
+}
+
+#signup a {
+    border-radius: 25px;
+    background:#21E543;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+	margin-top:20px;
+}
+
+#signup a:hover {
+    border-radius: 25px;
+    background:#4DFFD0;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+	margin-top:20px;
+	border-bottom: none;
+}
+
 
 #header {
 	background-image:url(spike.jpg);
