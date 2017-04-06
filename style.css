@@ -217,12 +217,12 @@ a:hover {
 }
 
 
-.sidebartable {
+.table {
 	text-align:left;
 	width:100%;
 }
 
-.sidebartable tr {
+.table tr {
 	padding:10px;
 } 
 
