@@ -344,12 +344,12 @@ button {
 }
 
 
-.cancelbtn {
+.resetbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }
 
-.cancelbtn,.signupbtn {
+.resetbtn,.signupbtn {
     float: left;
     width: 50%;
 }
