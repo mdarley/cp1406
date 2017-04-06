@@ -364,3 +364,7 @@ button {
     display: table;
 }
 
+.cenimg {
+	display: block;
+ 	margin: auto;
+}
